@@ -45,7 +45,7 @@ for (i=0;i<=3;i++){
 /* create a function should that checks if a store contains a specific product in it's inventory. */
 let storeArr= ["milk", "eggs", "cheese", "butter"];
 const checkInventory = (x) =>{
-console.log(    storeArr.includes(x) ? true:false);
+console.log (storeArr.includes(x));
 }
 checkInventory("milk");
 
