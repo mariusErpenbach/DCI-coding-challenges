@@ -1,5 +1,4 @@
 // Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
-
 const lessZero = (x) => x < 0 ? true : false;
 console.log(lessZero(-2));
 
@@ -23,22 +22,22 @@ const countOccurrences = (x,y) =>
     return occurences.length-1;}
 
 // drawing 
-let t_drawing = "t";
+let tDrawing = "t";
 for (i=0;i<=3;i++){
-    console.log(t_drawing);
-   t_drawing = t_drawing.concat(" t");    
+    console.log(tDrawing);
+   tDrawing = tDrawing.concat(" t");    
 };
 
-let star_drawing = "* * * * ";
+let starDrawing = "* * * * ";
 for (i=0;i<=3;i++){
-    console.log(star_drawing);
-    star_drawing = star_drawing.slice(0,-2)
-};
+    console.log(starDrawing);
+    starDrawing = starDrawing.slice(0,-2)
+}
 
-let number_drawing ="";
+let numberDrawing ="";
 for (i=0;i<=3;i++){
-    number_drawing = number_drawing.concat(` ${i+1}`);
-    console.log(number_drawing);
+    numberDrawing = numberDrawing.concat(` ${i+1}`);
+    console.log(numberDrawing);
 }
 
 
@@ -65,9 +64,7 @@ const numbersCount = () => {
   };
   numbersCount()
 
-  // 
-
-  const numbersCount2 = () => {
+  const numbersCountBackwards = () => {
     for (let i = 0; i <= 5; i++) {
       //something
           let count = "54321";
@@ -79,4 +76,4 @@ const numbersCount = () => {
       console.log(count)
     }
   };
-  numbersCount2()
+  numbersCountBackwards()
