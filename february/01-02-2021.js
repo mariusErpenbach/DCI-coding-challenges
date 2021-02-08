@@ -1,4 +1,5 @@
 
+
 ((currentAge,retAge,monthWage,savingPerMonth)=>{
   let yearsLeft = retAge-currentAge;
   let monthLeft = yearsLeft*12;
@@ -8,3 +9,4 @@
     return console.log(`In your ${monthLeft} months left to live you can safe up to ${monthSafe*monthLeft}`);
   }
 })(40,65,2000,5);
+
