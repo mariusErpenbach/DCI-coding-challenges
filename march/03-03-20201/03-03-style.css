@@ -79,3 +79,8 @@ input {
   input:checked + .slider::before {
     transform: translateX(2.5rem);
   }
+
+  
+#bible{
+width:200px;
+height:200px;}
